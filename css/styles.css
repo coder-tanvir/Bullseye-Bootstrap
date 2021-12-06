@@ -1,0 +1,19 @@
+hr {
+  height: 0.0625rem;
+}
+
+.aw-hr-short {
+  margin-top: 0;
+  height: 0.18rem;
+  background-color: #dc3545;
+  margin-left: 0rem;
+  width: 11.25rem;
+}
+
+/* Media */
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1140px;
+  }
+}

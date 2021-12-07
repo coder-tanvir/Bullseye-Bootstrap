@@ -54,6 +54,10 @@ hr {
   }
 }
 
+.row.equal-height > [class*="col-"] {
+  display: flex;
+}
+
 @media (min-width: 768px) {
   .aw-wrapper {
     padding: 0 10%;
